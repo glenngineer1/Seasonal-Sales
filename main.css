@@ -1,0 +1,14 @@
+.header {
+  display: inline;
+  margin-right: 20%;
+}
+
+#selectSeason {
+  display: inline-block;
+}
+
+.product-card {
+  border: 1px solid black;
+  margin: 1px;
+  padding: 5px;
+}
