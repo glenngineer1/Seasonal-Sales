@@ -46,9 +46,6 @@ function runDiscount() {
     if (season === categories[products[i].category_id - 1].season_discount) {
       discountPrice = products[i].price - (products[i].price) * categories[products[i].category_id - 1].discount;
         price[i].innerHTML = discountPrice.toFixed(2);
-    } else if ( season === categories[products[i].category_id - 2].season_discount) {
-      discountPrice = products[i].price - (products[i].price) * categories[products[i].category_id - 2].discount;
-        price[i].innerHTML = discountPrice.toFixed(2);
     } else (price[i].innerHTML = origPrice[i]);
   }
 };
